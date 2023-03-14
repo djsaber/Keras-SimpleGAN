@@ -21,7 +21,7 @@ GAN概述<br />
 两个网络相互对抗、不断调整参数，最终目的是使判别网络无法判断生成网络的输出结果是否真实。<br /><br />
 
 数据集：<br />
-fashion-mnist：包含十个类别的服装衣物数据集,分别是：<br />
+fashion-mnist：包含十个类别的服装衣物图片,分别是：<br />
 t-shirt（T恤），trouser（牛仔裤），pullover（套衫），dress（裙子），coat（外套），sandal（凉鞋），shirt（衬衫），sneaker（运动鞋），bag（包），ankle boot（短靴）。<br />
 训练集/测试集包含60000/1000张灰度图<br />
 链接：https://pan.baidu.com/s/1iBNmixiuORjpHjDSFephcg?pwd=52dl 提取码：52dl<br /><br />
