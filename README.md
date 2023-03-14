@@ -39,7 +39,7 @@ t-shirt（T恤），trouser（牛仔裤），pullover（套衫），dress（裙�
 5. 随机采样batch size个随机噪声，输入连接起来的模型进行训练，标签为1<br /><br />
 
 采用1:1训练比，即每个epoch判别器和生成器各训练一次，根据不同场景可以更改此项。<br />
-需要注意的是，Keras训练过程中模型的状态依据的是model.compile()处理的结果。<br />
+需要注意的是，Keras训练过程中模型的状态依据的是model.compile()时的状态。<br />
 在定义判别器后，通过compile()编译判别器，然后连接生成器和判别器构成combined模型，并将判别器的trainable设置为False，再通过compile()编译combined模型。<br />
 在训练时判别器和combined模型各自保持编译时的状态，所以在训练过程中不需要反复将判别的的trainable参数设置为True和False<br />
 
